@@ -1,0 +1,13 @@
+.Container{
+    .content{
+        max-width: 1120px;
+        margin: 0 auto;
+        padding: 0 2rem;
+        display: flex;
+
+        .sidebar{
+            width:200px;
+            max-width: 300px;
+        }
+    }
+}

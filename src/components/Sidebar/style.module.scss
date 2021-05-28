@@ -1,0 +1,24 @@
+.sidebar{
+    background: var(--white);
+    color: var(--gray-900);
+
+    width:250px;
+    height: calc(100vh - 5rem);
+
+    .button{
+        width:100%;
+        padding:1rem 2rem;
+        background: var(--white);
+        color: var(--gray-900);
+        border: 1px solid var(--white);
+
+        &:first-child{
+            margin-top: 1rem;
+        }
+
+        &:hover{
+            transition: 0.2s;
+            background: var(--gray-100);
+        }
+    }
+}

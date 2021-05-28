@@ -1,0 +1,54 @@
+.Container{
+    padding:1rem;
+    width:100%;
+
+    .inputSearch{
+        margin-bottom: 1.5rem;
+        input{
+            height: 3rem;
+            line-height: 3rem;
+
+            padding-left: 1rem;
+            padding-right: 1rem;
+
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+
+        button{
+            height: 3rem;
+            background: var(--white);
+            border: 1px solid var(--white);
+            color: var(--gray-800);
+
+            padding-left: 2rem;
+            padding-right: 2rem;
+
+            margin-top: 0;
+            margin-bottom: 0;
+        }
+    }
+
+    .employeeList{
+        .category{
+            font-size:1.5rem;
+
+            & > span{
+                font-weight: bold;
+            }
+        }
+
+        table{
+            width:100%;
+            margin-top: 2rem;
+
+            tbody {
+                tr{
+                    td{
+                        text-align:center;
+                    }
+                }
+            }
+        }
+    }
+}
